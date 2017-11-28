@@ -42,7 +42,7 @@
     "type": "package",
     "package": {
       "name": "cleentfaar/slack",
-      "version": "~0.20",
+      "version": "dev-master",
       "source": {
         "url": "git@github.com:zeboe/slack.git",
         "type": "git",
