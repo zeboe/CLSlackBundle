@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "zeboe/slack": "~0.20",
+    "cleentfaar/slack": "~0.20",
     "symfony/framework-bundle": "^2.3|^3.0"
   },
   "require-dev": {
@@ -36,5 +36,21 @@
   },
   "config": {
     "bin-dir": "bin"
+  },
+  "repositories":
+  {
+    "type": "package",
+    "package": {
+      "name": "cleentfaar/slack",
+      "version": "~0.20",
+      "source": {
+        "url": "git@github.com:zeboe/slack.git",
+        "type": "git",
+        "reference": "master"
+      },
+      "autoload": {
+        "classmap": [""]
+      }
+    }
   }
 }
